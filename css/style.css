@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+h1 > small {
+  font-size: 13px;
+}
+
+button {
+  min-width: 100px;
+  padding: 5px 16px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #446dff;
+  box-shadow: 1px 2px 8px 0 #aaa;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 6px #aaa;
+  cursor: pointer;
+  transition: .2s ease all;
+}
+
+button:hover {
+  background-color: #59a6ff;
+  box-shadow: 1px 1px 3px 0 #aaa;
+  text-shadow: none;
+}
